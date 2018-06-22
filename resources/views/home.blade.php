@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
     <!-- Styles -->
-    <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body class="hold-transition sidebar-mini">
     <div id="app"></div>
@@ -32,7 +32,7 @@
     <!-- jQuery -->
     <script src="plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap -->
-    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script> -->
     <!-- AdminLTE App -->
     <script src="dist/js/adminlte.js"></script>
 
@@ -51,6 +51,6 @@
     <script src="plugins/chartjs-old/Chart.min.js"></script>
 
     <!-- PAGE SCRIPTS -->
-    <script src="dist/js/pages/dashboard2.js"></script>
+    <!-- <script src="dist/js/pages/dashboard2.js"></script> -->
 </body>
 </html>
