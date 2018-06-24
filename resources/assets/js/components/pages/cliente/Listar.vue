@@ -1,6 +1,6 @@
 <template>
     <div class="col-md-12">
-        <div class="card">
+        <div class="card card-primary">
             <div class="card-header">
                 <h5 class="card-title">Listado</h5>
             </div>

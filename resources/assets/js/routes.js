@@ -1,6 +1,7 @@
 import Dashboard from './components/pages/Dashboard.vue';
 import Cliente from './components/pages/cliente/Cliente';
 import ListaCliente from './components/pages/cliente/Listar';
+import CrearCliente from './components/pages/cliente/Crear';
 
 export default [
     {
@@ -13,6 +14,9 @@ export default [
         children: [{
             path: '/',
             component: ListaCliente
+        },{
+            path: 'crear',
+            component: CrearCliente
         }]
     }
 ];
