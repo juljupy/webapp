@@ -13,8 +13,6 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
-    <!-- Styles -->
-    <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
     <!-- Fonts -->
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
@@ -22,6 +20,9 @@
     <link rel="stylesheet" href="dist/css/adminlte.min.css">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body class="hold-transition sidebar-mini">
     <div id="app"></div>
@@ -29,11 +30,18 @@
     <!-- REQUIRED SCRIPTS -->
     <!-- jQuery -->
     <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <!-- <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script> -->
     <!-- AdminLTE App -->
     <script src="dist/js/adminlte.js"></script>
 
     <!-- PAGE PLUGINS -->
     <!-- SlimScroll 1.3.0 -->
     <script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
+    <!-- ChartJS 1.0.2 -->
+    <script src="plugins/chartjs-old/Chart.min.js"></script>
+
+    <!-- PAGE SCRIPTS -->
+    <!-- <script src="dist/js/pages/dashboard2.js"></script> -->
 </body>
 </html>

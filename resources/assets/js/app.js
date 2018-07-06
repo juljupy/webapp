@@ -13,9 +13,21 @@ import LoadScript from 'vue-plugin-load-script';
 Vue.use(LoadScript);
 
 import App from './components/App.vue';
+import VueRouter from 'vue-router';
+import routes from './routes.js';
+import VueAWN from "vue-awesome-notifications";
+
+Vue.use(VueAWN)
+
+Vue.use(VueRouter);
+
+const router = new VueRouter({
+    routes
+});
 
 const app = new Vue({
     el: '#app',
+    router,
     template: '<App></App>',
     data() {
         return {

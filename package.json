@@ -11,6 +11,7 @@
     },
     "devDependencies": {
         "axios": "^0.18",
+        "axios-form": "0.0.3",
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.3",
         "babel-polyfill": "^6.26.0",
@@ -19,13 +20,20 @@
         "babili-webpack-plugin": "^0.1.2",
         "bootstrap": "^4.0.0",
         "cross-env": "^5.1",
+        "form-serialize": "^0.7.2",
         "jquery": "^3.2",
         "laravel-mix": "^2.0",
         "lodash": "^4.17.4",
+        "npm": "^6.1.0",
         "popper.js": "^1.12",
+        "query-string": "^6.1.0",
         "vue": "^2.5.7",
         "vue-plugin-load-script": "^1.1.0",
+        "vue-router": "^3.0.1",
         "webpack": "^3.10.0",
         "webpack-livereload-plugin": "^1.2.0"
+    },
+    "dependencies": {
+        "vue-awesome-notifications": "^2.2.9"
     }
 }

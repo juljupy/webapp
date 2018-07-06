@@ -13,18 +13,10 @@
 
 Route::get('/', 'HomeController@index')->name('home');
 
-// Route::get('/hola', function () {
-//     echo $_GET['nombre'] . ' ' . $_GET['apellido'];
-// });
-
-// Route::post('/holatu', function () {
-//     echo $_POST['nombre'] . ' ' . $_POST['apellido'];
-// });
-
-Route::get('/hola', 'HolaController@hola');
-
-Route::post('/holatu', 'HolaController@holatu');
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resources([
+    'cliente' => 'ClienteController'
+]);
