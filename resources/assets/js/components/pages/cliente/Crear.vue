@@ -77,7 +77,10 @@ export default {
                 method: 'POST'
             })
             .then( (response) => {
-                me.$awn.success("Your custom message")
+                // if(response.data.success){
+                    me.$awn.success(response.data.msg);
+                    me.$router.push('/cliente');
+                // }
                 console.log(response);
             })
             .catch( (error) => console.log(error));
