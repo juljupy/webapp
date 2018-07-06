@@ -53,9 +53,13 @@ export default {
             icon : 'fa-users',
             route: '/cliente'
         },{
-            text : 'Eventos',
+            text : 'Eventos VC',
             icon : 'fa-calendar',
             route: '/eventos'
+        },{
+            text : 'Eventos FC',
+            icon : 'fa-calendar',
+            route: '/eventos/fc'
         }]
       }
     }

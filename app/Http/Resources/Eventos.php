@@ -15,12 +15,15 @@ class Eventos extends JsonResource
      */
     public function toArray($request)
     {
+        $fechaInicio = Carbon::createFromTimeString($this->fecha_inicio);
+        $fechaFin = Carbon::createFromTimeString($this->fecha_fin);
+
         return [
             'titulo' => $this->titulo,
-            //'fecha_inicio' => Carbon::createFromTimeString($this->fecha_inicio)->format('d/m/Y h:m:s'),
-            'fecha_inicio' => Carbon::createFromTimeString($this->fecha_inicio)->format('Y/m/d'),
-            //'fecha_fin' => Carbon::createFromTimeString($this->fecha_fin)->format('d/m/Y h:m:s'),
-            'fecha_fin' => Carbon::createFromTimeString($this->fecha_fin)->format('Y/m/d'),
+            'fecha_inicio' => $fechaInicio->format('Y-m-d'). 'T' . $fechaInicio->format('h:m:s'),
+            'fecha_inicio_vc' => $fechaInicio->format('Y/m/d'),
+            'fecha_fin' => $fechaFin->format('Y-m-d'). 'T' . $fechaFin->format('h:m:s'),
+            'fecha_fin_vc' => $fechaFin->format('Y/m/d'),
             'descripcion' => $this->descripcion
         ];
     }

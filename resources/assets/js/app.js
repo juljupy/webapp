@@ -13,6 +13,9 @@ import 'vue-event-calendar/dist/style.css'
 import vueEventCalendar from 'vue-event-calendar'
 Vue.use(vueEventCalendar, {locale: 'es'})
 
+import FullCalendar from 'vue-full-calendar'
+Vue.use(FullCalendar)
+
 import LoadScript from 'vue-plugin-load-script';
 Vue.use(LoadScript);
 

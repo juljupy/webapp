@@ -35,6 +35,7 @@
     },
     "dependencies": {
         "vue-awesome-notifications": "^2.2.9",
-        "vue-event-calendar": "^1.5.2"
+        "vue-event-calendar": "^1.5.2",
+        "vue-full-calendar": "^4.0.0-1"
     }
 }

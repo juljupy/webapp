@@ -33,7 +33,7 @@
                     response.data.data.forEach( (item) => {
                         me.events.push({
                             title: item.titulo,
-                            date: item.fecha_inicio,
+                            date: item.fecha_inicio_vc,
                             desc: item.descripcion
                         });
                     });

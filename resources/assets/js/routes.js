@@ -4,6 +4,7 @@ import ListaCliente from './components/pages/cliente/Listar.vue';
 import CrearCliente from './components/pages/cliente/Crear.vue';
 import Eventos from './components/pages/eventos/Eventos.vue';
 import ListarEventos from './components/pages/eventos/Listar.vue';
+import ListarEventosFC from './components/pages/eventos/ListarFC.vue';
 
 export default [
     {
@@ -26,6 +27,9 @@ export default [
         children: [{
             path: '/',
             component: ListarEventos
+        },{
+            path: 'fc',
+            component: ListarEventosFC
         }]
     }
 ];
