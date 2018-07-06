@@ -11,4 +11,8 @@ class Eventos extends Model
     protected $fillable = [
         'titulo', 'fecha_inicio', 'fecha_fin', 'descripcion'
     ];
+
+    protected $hidden = [
+        'created_at', 'updated_at'
+    ];
 }

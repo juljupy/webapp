@@ -18,5 +18,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resources([
-    'cliente' => 'ClienteController'
+    'cliente' => 'ClienteController',
+    'eventos' => 'EventosController'
 ]);
