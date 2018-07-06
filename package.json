@@ -34,6 +34,7 @@
         "webpack-livereload-plugin": "^1.2.0"
     },
     "dependencies": {
-        "vue-awesome-notifications": "^2.2.9"
+        "vue-awesome-notifications": "^2.2.9",
+        "vue-event-calendar": "^1.5.2"
     }
 }

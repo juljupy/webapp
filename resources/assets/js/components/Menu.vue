@@ -52,6 +52,10 @@ export default {
             text : 'Clientes',
             icon : 'fa-users',
             route: '/cliente'
+        },{
+            text : 'Eventos',
+            icon : 'fa-calendar',
+            route: '/eventos'
         }]
       }
     }
